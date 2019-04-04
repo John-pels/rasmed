@@ -1,0 +1,2 @@
+		$("#enter_email").hide();
+			$("")

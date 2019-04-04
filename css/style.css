@@ -1,0 +1,101 @@
+*{
+	-webkit-background-size:cover;
+-o-background-size:cover;
+-moz-background-size:cover;
+box-sizing: border-box;
+}
+body {
+	margin:0px;
+	padding: 0px;
+	background: url('../images/69677336-row-books-and-white-background-3d-illustration.jpg') ;
+	background-attachment: fixed;
+	background-size:cover ;
+}
+.header-img {
+	margin-top: 10px;
+
+}
+img {
+	border-radius: 30px;
+}
+.form-container {
+	background: rgba(0,0,0,0.6);
+	margin-top: 10px;
+	min-height: 300px;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 2px #2E3192;
+}
+.form-container:hover {
+	background: rgba(0,0,0,.7);
+}
+.user::before {
+	content:"\f21b";
+	font-family: "FontAwesome";
+	position: absolute;
+	color: #fff;
+	margin-left: 8px;
+	margin-top: 4px;
+	line-height: 22px;
+}
+
+input[type="text"] {
+		padding-left: 30px;
+		color: #2E3192;
+		background:transparent;
+		width: 100%;
+		border:1px solid #fff;
+		height: 32px;
+		margin-bottom: 10px;
+	}
+	.envelope::before {
+	content:"\f003";
+	font-family: "FontAwesome";
+	position: absolute;
+	color: #fff;
+	margin-left: 8px;
+	margin-top: 4px;
+}
+input[type="email"] {
+		padding-left: 30px;
+		color: #2E3192;
+		background:transparent;
+		width: 100%;
+		border:1px solid #fff;
+		height: 32px;
+		margin-bottom: 10px;
+	}
+		.phone::before {
+	content:"\f10b";
+	font-family: "FontAwesome";
+	position: absolute;
+	color: #fff;
+	margin-left: 8px;
+	margin-top: 4px;
+}
+input[type="number"] {
+		padding-left: 30px;
+		color: #2E3192;
+		background:transparent;
+		width: 100%;
+		border:1px solid #fff;
+		height: 32px;
+		margin-bottom: 10px;
+	}
+	textarea {
+		padding-left: 30px;
+		color: #2E3192;
+		
+		width: 100%;
+		border:1px solid steelblue;
+		height: 32px;
+		margin-bottom: 10px;
+	}
+	input[type ="text"], input[type ="number"], input[type ="email"], select {
+		border-top: none;
+		border-right: none;
+		border-left: none;
+
+	}
+
+
